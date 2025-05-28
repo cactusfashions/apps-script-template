@@ -1,0 +1,28 @@
+{
+  "name": "apps-script-template",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/cactusfashions/apps-script-template#readme",
+  "bugs": {
+    "url": "https://github.com/cactusfashions/apps-script-template/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cactusfashions/apps-script-template.git"
+  },
+  "license": "ISC",
+  "author": "satyadev-mishra",
+  "type": "commonjs",
+  "main": "src/Code.gs",
+  "scripts": {
+    "format": "prettier --write 'src/**/*.{js,ts,gs,json}'",
+    "postinstall": "node ./scripts/check-clasp.js"
+  },
+  "dependencies": {
+    "@google/clasp": "^3.0.4-alpha"
+  },
+  "devDependencies": {
+    "prettier": "^3.5.3"
+  }
+}

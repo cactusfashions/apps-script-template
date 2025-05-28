@@ -1,0 +1,17 @@
+# Node.js
+node_modules/
+package-lock.json
+
+# CLASP
+.clasp.json
+.clasp-secret.json
+
+# VSCode / Editor junk
+.vscode/
+*.log
+
+# MacOS / system files
+.DS_Store
+
+# Prettier ignore (if mistakenly generated in wrong path)
+.prettierignore
