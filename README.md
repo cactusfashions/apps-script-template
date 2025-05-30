@@ -38,6 +38,9 @@ This project provides a starting point for building Google Apps Script projects.
 1. Clone the repository: `git clone https://github.com/cactusfashions/apps-script-template.git`
 2. Install dependencies: `npm install`
 3. Configure your Apps Script project settings in `appsscript.json`
-4. Write your script in `Code.gs`
-5. Format your code: `npm run format`
-6. Deploy your project: `clasp deploy`
+4. replace you script id `.clasp.json`
+5. Write your script in `Code.gs`
+6. Format your code: `npm run format`
+7. push your project: `clasp push`
+8. read documnetation here: [npm-clasp](https://www.npmjs.com/package/@google/clasp)
+9. Deploy your project: `clasp deploy`

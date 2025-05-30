@@ -1,3 +1,4 @@
 function myFunction() {
-  Logger.log("Hello from Apps Script!");
+  Logger.log("Test script is running......");
+  
 }
